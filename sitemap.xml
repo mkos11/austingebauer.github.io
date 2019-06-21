@@ -37,13 +37,13 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/networking/</loc>
+    <loc>http://example.com/categories/networking/</loc>
     <lastmod>2018-06-19T16:54:29-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/networking/</loc>
+    <loc>http://example.com/tags/networking/</loc>
     <lastmod>2018-06-19T16:54:29-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -55,13 +55,13 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/software/</loc>
+    <loc>http://example.com/categories/software/</loc>
     <lastmod>2018-06-19T16:54:29-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/software/</loc>
+    <loc>http://example.com/tags/software/</loc>
     <lastmod>2018-06-19T16:54:29-04:00</lastmod>
     <priority>0</priority>
   </url>

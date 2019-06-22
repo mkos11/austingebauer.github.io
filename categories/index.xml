@@ -6,24 +6,24 @@
     <description>Recent content in Categories on austing.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Jun 2018 16:54:29 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 23 May 2018 16:10:36 -0400</lastBuildDate>
     
 	<atom:link href="http://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>networking</title>
-      <link>http://example.com/categories/networking/</link>
-      <pubDate>Tue, 19 Jun 2018 16:54:29 -0400</pubDate>
+      <title>Graphics</title>
+      <link>http://example.com/categories/graphics/</link>
+      <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
       
-      <guid>http://example.com/categories/networking/</guid>
+      <guid>http://example.com/categories/graphics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>software</title>
+      <title>Software</title>
       <link>http://example.com/categories/software/</link>
-      <pubDate>Tue, 19 Jun 2018 16:54:29 -0400</pubDate>
+      <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
       
       <guid>http://example.com/categories/software/</guid>
       <description></description>

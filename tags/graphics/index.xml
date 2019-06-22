@@ -17,7 +17,8 @@
       <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
       
       <guid>http://example.com/posts/ray-tracing/</guid>
-      <description>Ray tracing $$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$</description>
+      <description>This is a sample post that is written in markdown.
+$$ i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$</description>
     </item>
     
   </channel>

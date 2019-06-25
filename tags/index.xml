@@ -47,23 +47,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>grpc</title>
-      <link>http://example.com/tags/grpc/</link>
-      <pubDate>Sat, 20 Jan 2018 16:54:29 -0400</pubDate>
-      
-      <guid>http://example.com/tags/grpc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>protobuf</title>
-      <link>http://example.com/tags/protobuf/</link>
-      <pubDate>Sat, 20 Jan 2018 16:54:29 -0400</pubDate>
-      
-      <guid>http://example.com/tags/protobuf/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

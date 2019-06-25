@@ -71,21 +71,4 @@
     <lastmod>2018-01-21T16:54:29-04:00</lastmod>
   </url>
   
-  <url>
-    <loc>http://example.com/posts/grpc_gateway/</loc>
-    <lastmod>2018-01-20T16:54:29-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/grpc/</loc>
-    <lastmod>2018-01-20T16:54:29-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/protobuf/</loc>
-    <lastmod>2018-01-20T16:54:29-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
 </urlset>

@@ -12,16 +12,7 @@
     
     
     <item>
-      <title>golang</title>
-      <link>http://example.com/tags/golang/</link>
-      <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
-      
-      <guid>http://example.com/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>graphics</title>
+      <title>Graphics</title>
       <link>http://example.com/tags/graphics/</link>
       <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
       
@@ -30,20 +21,11 @@
     </item>
     
     <item>
-      <title>ray tracing</title>
+      <title>Ray Tracing</title>
       <link>http://example.com/tags/ray-tracing/</link>
       <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
       
       <guid>http://example.com/tags/ray-tracing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rendering</title>
-      <link>http://example.com/tags/rendering/</link>
-      <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
-      
-      <guid>http://example.com/tags/rendering/</guid>
       <description></description>
     </item>
     

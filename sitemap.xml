@@ -13,12 +13,27 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/graphics/</loc>
+    <loc>http://example.com/categories/deep-dive/</loc>
+    <lastmod>2018-05-23T16:10:36-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/posts/ray-tracing/</loc>
+    <lastmod>2018-05-23T16:10:36-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/go/</loc>
     <lastmod>2018-05-23T16:10:36-04:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.com/categories/graphics/</loc>
+    <lastmod>2018-05-23T16:10:36-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/graphics/</loc>
     <lastmod>2018-05-23T16:10:36-04:00</lastmod>
   </url>
   
@@ -29,11 +44,6 @@
   
   <url>
     <loc>http://example.com/tags/ray-tracing/</loc>
-    <lastmod>2018-05-23T16:10:36-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.com/posts/ray-tracing/</loc>
     <lastmod>2018-05-23T16:10:36-04:00</lastmod>
   </url>
   

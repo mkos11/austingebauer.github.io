@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Deep Dive</title>
+      <link>http://example.com/categories/deep-dive/</link>
+      <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
+      
+      <guid>http://example.com/categories/deep-dive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Graphics</title>
       <link>http://example.com/categories/graphics/</link>
       <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>

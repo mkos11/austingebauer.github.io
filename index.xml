@@ -12,12 +12,15 @@
     
     
     <item>
-      <title>Shadow acne in 3D graphics rendering</title>
+      <title>Deep Dive 2019 - Writing a Ray Tracer in Go</title>
       <link>http://example.com/posts/ray-tracing/</link>
       <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
       
       <guid>http://example.com/posts/ray-tracing/</guid>
-      <description></description>
+      <description>This year, I decided to start doing an annual deep dive on a subject that I know nothing about.
+My decision was inspired by a quote that I saw on twitter.
+At any time of your life,
+you should be learning something new that makes you feel like an idiot. &amp;mdash; Orange Book (@orangebook_) October 18, 2019  I&amp;rsquo;m grateful that I happened to see this tweet because it inspired me to take action and learn something new.</description>
     </item>
     
     <item>

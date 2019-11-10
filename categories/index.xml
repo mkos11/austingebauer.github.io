@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on austing.dev</title>
-    <link>http://example.com/categories/</link>
-    <description>Recent content in Categories on austing.dev</description>
+    <title>Categories on austingebauer</title>
+    <link>http://austingebauer.com/categories/</link>
+    <description>Recent content in Categories on austingebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 May 2018 16:10:36 -0400</lastBuildDate>
     
-	<atom:link href="http://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://austingebauer.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Deep Dive</title>
-      <link>http://example.com/categories/deep-dive/</link>
+      <link>http://austingebauer.com/categories/deep-dive/</link>
       <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
       
-      <guid>http://example.com/categories/deep-dive/</guid>
+      <guid>http://austingebauer.com/categories/deep-dive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graphics</title>
-      <link>http://example.com/categories/graphics/</link>
+      <link>http://austingebauer.com/categories/graphics/</link>
       <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
       
-      <guid>http://example.com/categories/graphics/</guid>
+      <guid>http://austingebauer.com/categories/graphics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>http://example.com/categories/software/</link>
+      <link>http://austingebauer.com/categories/software/</link>
       <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
       
-      <guid>http://example.com/categories/software/</guid>
+      <guid>http://austingebauer.com/categories/software/</guid>
       <description></description>
     </item>
     

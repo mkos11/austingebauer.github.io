@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>austing.dev</title>
-    <link>http://example.com/</link>
-    <description>Recent content on austing.dev</description>
+    <title>austingebauer</title>
+    <link>http://austingebauer.com/</link>
+    <description>Recent content on austingebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 May 2018 16:10:36 -0400</lastBuildDate>
     
-	<atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://austingebauer.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Deep Dive 2019 - Writing a Ray Tracer in Go</title>
-      <link>http://example.com/posts/ray-tracing/</link>
+      <link>http://austingebauer.com/posts/ray-tracing/</link>
       <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
       
-      <guid>http://example.com/posts/ray-tracing/</guid>
+      <guid>http://austingebauer.com/posts/ray-tracing/</guid>
       <description>This year, I decided to start doing an annual deep dive on a subject that I know nothing about.
 My decision was inspired by a quote that I saw on twitter.
 At any time of your life,
@@ -25,10 +25,10 @@ you should be learning something new that makes you feel like an idiot. &amp;mda
     
     <item>
       <title>About</title>
-      <link>http://example.com/about/</link>
+      <link>http://austingebauer.com/about/</link>
       <pubDate>Sun, 21 Jan 2018 16:54:29 -0400</pubDate>
       
-      <guid>http://example.com/about/</guid>
+      <guid>http://austingebauer.com/about/</guid>
       <description>About Me Hello 👋 I&amp;rsquo;m Austin Gebauer. I live in Seattle, WA. I&amp;rsquo;m a software engineer.
 I studied computer science at the University of Washington.
 I&amp;rsquo;m currently working on networking software for NGINX as a part of F5 Networks.

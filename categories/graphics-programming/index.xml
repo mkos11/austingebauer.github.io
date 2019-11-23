@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Graphics on austingebauer</title>
-    <link>http://austingebauer.com/tags/graphics/</link>
-    <description>Recent content in Graphics on austingebauer</description>
+    <title>Graphics Programming on austingebauer</title>
+    <link>http://austingebauer.com/categories/graphics-programming/</link>
+    <description>Recent content in Graphics Programming on austingebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Nov 2019 16:10:36 -0400</lastBuildDate>
     
-	<atom:link href="http://austingebauer.com/tags/graphics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://austingebauer.com/categories/graphics-programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

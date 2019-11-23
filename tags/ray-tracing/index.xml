@@ -6,21 +6,21 @@
     <description>Recent content in Ray Tracing on austingebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 May 2018 16:10:36 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2019 16:10:36 -0400</lastBuildDate>
     
 	<atom:link href="http://austingebauer.com/tags/ray-tracing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Deep Dive 2019 - Writing a Ray Tracer in Go</title>
-      <link>http://austingebauer.com/posts/ray-tracing/</link>
-      <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
+      <title>Writing a Ray Tracer in Go</title>
+      <link>http://austingebauer.com/posts/2019/ray-tracing/</link>
+      <pubDate>Fri, 22 Nov 2019 16:10:36 -0400</pubDate>
       
-      <guid>http://austingebauer.com/posts/ray-tracing/</guid>
-      <description>This year, I decided to start doing an annual deep dive on a subject that I know nothing about.
-My decision was inspired by a quote that I saw on twitter.
-At any time of your life,
-you should be learning something new that makes you feel like an idiot. &amp;mdash; Orange Book (@orangebook_) October 18, 2019  I&amp;rsquo;m grateful that I happened to see this tweet because it inspired me to take action and learn something new.</description>
+      <guid>http://austingebauer.com/posts/2019/ray-tracing/</guid>
+      <description>Getting Started I recently decided to learn about 3D graphics programming. I knew absolutely nothing about how graphics worked before starting.
+I decided to learn about a particular graphics rendering technique called ray tracing.
+Shadows My sixth rendering is the same ray traced world as the last rendering but with shadows!
+The rendering demonstrates using shadow rays to determine if a point is in a shadow or not. If a point is in shadow, the ray tracer will omit the diffuse and specular contribution and only use the ambient contribution to shade the pixel.</description>
     </item>
     
   </channel>

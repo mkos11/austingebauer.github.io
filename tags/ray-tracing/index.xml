@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ray Tracing on austingebauer</title>
+    <title>Ray Tracing on Austin Gebauer</title>
     <link>http://austingebauer.com/tags/ray-tracing/</link>
-    <description>Recent content in Ray Tracing on austingebauer</description>
+    <description>Recent content in Ray Tracing on Austin Gebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Nov 2019 16:10:36 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2019 14:34:52 -0800</lastBuildDate>
     
 	<atom:link href="http://austingebauer.com/tags/ray-tracing/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Writing a Ray Tracer in Go</title>
       <link>http://austingebauer.com/posts/2019/ray-tracing/</link>
-      <pubDate>Fri, 22 Nov 2019 16:10:36 -0400</pubDate>
+      <pubDate>Fri, 22 Nov 2019 14:34:52 -0800</pubDate>
       
       <guid>http://austingebauer.com/posts/2019/ray-tracing/</guid>
       <description>Getting Started I recently decided to learn about 3D graphics programming. I knew absolutely nothing about how graphics worked before starting.

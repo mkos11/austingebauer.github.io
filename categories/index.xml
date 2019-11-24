@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on austingebauer</title>
+    <title>Categories on Austin Gebauer</title>
     <link>http://austingebauer.com/categories/</link>
-    <description>Recent content in Categories on austingebauer</description>
+    <description>Recent content in Categories on Austin Gebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Nov 2019 14:34:52 -0800</lastBuildDate>
@@ -12,20 +12,20 @@
     
     
     <item>
+      <title>Graphics Programming</title>
+      <link>http://austingebauer.com/categories/graphics-programming/</link>
+      <pubDate>Fri, 22 Nov 2019 14:34:52 -0800</pubDate>
+      
+      <guid>http://austingebauer.com/categories/graphics-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Software</title>
       <link>http://austingebauer.com/categories/software/</link>
       <pubDate>Fri, 22 Nov 2019 14:34:52 -0800</pubDate>
       
       <guid>http://austingebauer.com/categories/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graphics Programming</title>
-      <link>http://austingebauer.com/categories/graphics-programming/</link>
-      <pubDate>Fri, 22 Nov 2019 16:10:36 -0400</pubDate>
-      
-      <guid>http://austingebauer.com/categories/graphics-programming/</guid>
       <description></description>
     </item>
     

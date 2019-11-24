@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on austingebauer</title>
+    <title>Posts on Austin Gebauer</title>
     <link>http://austingebauer.com/posts/</link>
-    <description>Recent content in Posts on austingebauer</description>
+    <description>Recent content in Posts on Austin Gebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Nov 2019 14:34:52 -0800</lastBuildDate>
@@ -17,7 +17,8 @@
       <pubDate>Fri, 22 Nov 2019 14:34:52 -0800</pubDate>
       
       <guid>http://austingebauer.com/posts/2019/cgo-c-from-go/</guid>
-      <description>TODO: in progress</description>
+      <description>TODO: in progress
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65  // package tuple package tuple import ( &amp;#34;errors&amp;#34; &amp;#34;log&amp;#34; &amp;#34;github.</description>
     </item>
     
     <item>
@@ -41,7 +42,7 @@
     <item>
       <title>Writing a Ray Tracer in Go</title>
       <link>http://austingebauer.com/posts/2019/ray-tracing/</link>
-      <pubDate>Fri, 22 Nov 2019 16:10:36 -0400</pubDate>
+      <pubDate>Fri, 22 Nov 2019 14:34:52 -0800</pubDate>
       
       <guid>http://austingebauer.com/posts/2019/ray-tracing/</guid>
       <description>Getting Started I recently decided to learn about 3D graphics programming. I knew absolutely nothing about how graphics worked before starting.

@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://austingebauer.com/</loc>
+    <loc>http://austingebauer.com/tags/api/</loc>
     <lastmod>2019-11-22T14:34:52-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://austingebauer.com/tags/api/</loc>
+    <loc>http://austingebauer.com/</loc>
     <lastmod>2019-11-22T14:34:52-08:00</lastmod>
   </url>
   
@@ -33,12 +33,27 @@
   </url>
   
   <url>
+    <loc>http://austingebauer.com/tags/graphics/</loc>
+    <lastmod>2019-11-22T14:34:52-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://austingebauer.com/categories/graphics-programming/</loc>
+    <lastmod>2019-11-22T14:34:52-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://austingebauer.com/posts/</loc>
     <lastmod>2019-11-22T14:34:52-08:00</lastmod>
   </url>
   
   <url>
     <loc>http://austingebauer.com/tags/protobuf/</loc>
+    <lastmod>2019-11-22T14:34:52-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://austingebauer.com/tags/ray-tracing/</loc>
     <lastmod>2019-11-22T14:34:52-08:00</lastmod>
   </url>
   
@@ -58,23 +73,8 @@
   </url>
   
   <url>
-    <loc>http://austingebauer.com/tags/graphics/</loc>
-    <lastmod>2019-11-22T16:10:36-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://austingebauer.com/categories/graphics-programming/</loc>
-    <lastmod>2019-11-22T16:10:36-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://austingebauer.com/tags/ray-tracing/</loc>
-    <lastmod>2019-11-22T16:10:36-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://austingebauer.com/posts/2019/ray-tracing/</loc>
-    <lastmod>2019-11-22T16:10:36-04:00</lastmod>
+    <lastmod>2019-11-22T14:34:52-08:00</lastmod>
   </url>
   
   <url>

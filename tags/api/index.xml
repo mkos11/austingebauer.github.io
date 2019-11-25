@@ -6,7 +6,7 @@
     <description>Recent content in API on Austin Gebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Nov 2019 14:34:52 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 21 Nov 2019 14:34:52 -0800</lastBuildDate>
     
 	<atom:link href="http://austingebauer.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>Using grpc-gateway for JSON to gRPC transcoding</title>
       <link>http://austingebauer.com/posts/2019/grpc-gateway/</link>
-      <pubDate>Fri, 22 Nov 2019 14:34:52 -0800</pubDate>
+      <pubDate>Thu, 21 Nov 2019 14:34:52 -0800</pubDate>
       
       <guid>http://austingebauer.com/posts/2019/grpc-gateway/</guid>
-      <description>TODO: in progress</description>
+      <description>NOTE: in progress</description>
     </item>
     
   </channel>

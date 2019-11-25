@@ -6,10 +6,30 @@
     <description>Recent content in Software on Austin Gebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Nov 2019 14:34:52 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2019 14:34:52 -0800</lastBuildDate>
     
 	<atom:link href="http://austingebauer.com/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Writing a Ray Tracer in Go</title>
+      <link>http://austingebauer.com/posts/2019/ray-tracing/</link>
+      <pubDate>Sun, 24 Nov 2019 14:34:52 -0800</pubDate>
+      
+      <guid>http://austingebauer.com/posts/2019/ray-tracing/</guid>
+      <description>I recently decided to take up learning about 3D graphics programming. I knew absolutely nothing about graphics programming before starting the journey.
+I decided to learn about a particular graphics rendering technique called ray tracing. Ray tracing can be used to render photorealistic scenes.
+I found a highly recommended book titled The Ray Tracer Challenge. I personally recommend this book after having worked through it myself. In it is a cohesive, hands-on introduction to graphics programming.</description>
+    </item>
+    
+    <item>
+      <title>Cgo: Calling Go From C</title>
+      <link>http://austingebauer.com/posts/2019/cgo-go-from-c/</link>
+      <pubDate>Sat, 23 Nov 2019 14:34:52 -0800</pubDate>
+      
+      <guid>http://austingebauer.com/posts/2019/cgo-go-from-c/</guid>
+      <description>NOTE: in progress</description>
+    </item>
     
     <item>
       <title>Cgo: Calling C From Go</title>
@@ -17,38 +37,16 @@
       <pubDate>Fri, 22 Nov 2019 14:34:52 -0800</pubDate>
       
       <guid>http://austingebauer.com/posts/2019/cgo-c-from-go/</guid>
-      <description>TODO: in progress
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65  // package tuple package tuple import ( &amp;#34;errors&amp;#34; &amp;#34;log&amp;#34; &amp;#34;github.</description>
-    </item>
-    
-    <item>
-      <title>Cgo: Calling Go From C</title>
-      <link>http://austingebauer.com/posts/2019/cgo-go-from-c/</link>
-      <pubDate>Fri, 22 Nov 2019 14:34:52 -0800</pubDate>
-      
-      <guid>http://austingebauer.com/posts/2019/cgo-go-from-c/</guid>
-      <description>TODO: in progress</description>
+      <description>NOTE: in progress</description>
     </item>
     
     <item>
       <title>Using grpc-gateway for JSON to gRPC transcoding</title>
       <link>http://austingebauer.com/posts/2019/grpc-gateway/</link>
-      <pubDate>Fri, 22 Nov 2019 14:34:52 -0800</pubDate>
+      <pubDate>Thu, 21 Nov 2019 14:34:52 -0800</pubDate>
       
       <guid>http://austingebauer.com/posts/2019/grpc-gateway/</guid>
-      <description>TODO: in progress</description>
-    </item>
-    
-    <item>
-      <title>Writing a Ray Tracer in Go</title>
-      <link>http://austingebauer.com/posts/2019/ray-tracing/</link>
-      <pubDate>Fri, 22 Nov 2019 14:34:52 -0800</pubDate>
-      
-      <guid>http://austingebauer.com/posts/2019/ray-tracing/</guid>
-      <description>Getting Started I recently decided to learn about 3D graphics programming. I knew absolutely nothing about how graphics worked before starting.
-I decided to learn about a particular graphics rendering technique called ray tracing.
-Shadows My sixth rendering is the same ray traced world as the last rendering but with shadows!
-The rendering demonstrates using shadow rays to determine if a point is in a shadow or not. If a point is in shadow, the ray tracer will omit the diffuse and specular contribution and only use the ambient contribution to shade the pixel.</description>
+      <description>NOTE: in progress</description>
     </item>
     
   </channel>

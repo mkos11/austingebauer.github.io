@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Austin Gebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Nov 2019 14:34:52 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://austingebauer.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Go</title>
       <link>http://austingebauer.com/tags/go/</link>
-      <pubDate>Sun, 24 Nov 2019 14:34:52 -0800</pubDate>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>http://austingebauer.com/tags/go/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Graphics</title>
       <link>http://austingebauer.com/tags/graphics/</link>
-      <pubDate>Sun, 24 Nov 2019 14:34:52 -0800</pubDate>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>http://austingebauer.com/tags/graphics/</guid>
       <description></description>
@@ -32,27 +32,9 @@
     <item>
       <title>Ray Tracing</title>
       <link>http://austingebauer.com/tags/ray-tracing/</link>
-      <pubDate>Sun, 24 Nov 2019 14:34:52 -0800</pubDate>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>http://austingebauer.com/tags/ray-tracing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>API</title>
-      <link>http://austingebauer.com/tags/api/</link>
-      <pubDate>Thu, 21 Nov 2019 14:34:52 -0800</pubDate>
-      
-      <guid>http://austingebauer.com/tags/api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Protobuf</title>
-      <link>http://austingebauer.com/tags/protobuf/</link>
-      <pubDate>Thu, 21 Nov 2019 14:34:52 -0800</pubDate>
-      
-      <guid>http://austingebauer.com/tags/protobuf/</guid>
       <description></description>
     </item>
     

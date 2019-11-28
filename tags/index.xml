@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Austin Gebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://austingebauer.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019</title>
+      <link>http://austingebauer.com/tags/2019/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://austingebauer.com/tags/2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>http://austingebauer.com/tags/books/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://austingebauer.com/tags/books/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Go</title>

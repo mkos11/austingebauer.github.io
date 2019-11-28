@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://austingebauer.com/tags/2019/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://austingebauer.com/</loc>
-    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://austingebauer.com/categories/book-reviews/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://austingebauer.com/tags/books/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://austingebauer.com/categories/</loc>
-    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://austingebauer.com/posts/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://austingebauer.com/tags/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://austingebauer.com/posts/2019/books/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,22 +58,12 @@
   </url>
   
   <url>
-    <loc>http://austingebauer.com/posts/</loc>
-    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://austingebauer.com/tags/ray-tracing/</loc>
     <lastmod>2019-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://austingebauer.com/categories/software/</loc>
-    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://austingebauer.com/tags/</loc>
     <lastmod>2019-11-25T00:00:00+00:00</lastmod>
   </url>
   

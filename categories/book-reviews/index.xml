@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book Reviews on Austin Gebauer</title>
+    <link>http://austingebauer.com/categories/book-reviews/</link>
+    <description>Recent content in Book Reviews on Austin Gebauer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://austingebauer.com/categories/book-reviews/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The books I read in 2019</title>
+      <link>http://austingebauer.com/posts/2019/books/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://austingebauer.com/posts/2019/books/</guid>
+      <description>In the last quarter of 2019, I decided to read a new book every month. As a tradition, I&amp;rsquo;ll be posting short reviews for each book that I read over each year.
+So here are all of the books that I read in 2019, starting with what I read in September and ending with December.
+Rework - September Rework is an incredibly insightful business book that questions the status quo and current state of affairs for how things get done in the workplace.</description>
+    </item>
+    
+  </channel>
+</rss>

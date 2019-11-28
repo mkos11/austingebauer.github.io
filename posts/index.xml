@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Austin Gebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://austingebauer.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The books I read in 2019</title>
+      <link>http://austingebauer.com/posts/2019/books/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://austingebauer.com/posts/2019/books/</guid>
+      <description>In the last quarter of 2019, I decided to read a new book every month. As a tradition, I&amp;rsquo;ll be posting short reviews for each book that I read over each year.
+So here are all of the books that I read in 2019, starting with what I read in September and ending with December.
+Rework - September Rework is an incredibly insightful business book that questions the status quo and current state of affairs for how things get done in the workplace.</description>
+    </item>
     
     <item>
       <title>Writing a Ray Tracer in Go</title>

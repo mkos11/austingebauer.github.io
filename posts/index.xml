@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Austin Gebauer</title>
@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Austin Gebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://austingebauer.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The books I read in 2020</title>
+      <link>http://austingebauer.com/posts/2020/books/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://austingebauer.com/posts/2020/books/</guid>
+      <description>Continuing the tradition that I started in 2019, here are all of the books that I&#39;m reading in each month of 2020.
+Why We Sleep  - January Currently in progress.
+Site Reliability Engineering  - February Currently in progress.</description>
+    </item>
     
     <item>
       <title>The books I read in 2019</title>
@@ -17,10 +28,9 @@
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>http://austingebauer.com/posts/2019/books/</guid>
-      <description>In the last quarter of 2019, I decided to read a new book every month. As a tradition, I&amp;rsquo;ll be posting short reviews for each book that I read over each year.
+      <description>In the last quarter of 2019, I decided to read a new book every month. As a tradition, I&#39;ll be posting short reviews for each book that I read over each year.
 So here are all of the books that I read in 2019, starting with what I read in September and ending with December.
-It Doesn&amp;rsquo;t Have to Be Crazy at Work - December In progress&amp;hellip;
-Skunk Works - November This book explores the inner workings of the notorious Lockheed Martin aerospace engineering team named the Skunk Works.</description>
+Rework  - September Rework is an incredibly insightful business book that questions the status quo and current state of affairs for how things get done in the workplace.</description>
     </item>
     
     <item>
@@ -29,8 +39,8 @@ Skunk Works - November This book explores the inner workings of the notorious Lo
       <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>http://austingebauer.com/posts/2019/ray-tracing/</guid>
-      <description>Table of Contents  Motivation Tools for the Job Rendering 1 - Projectile Rendering 2 - Clock Rendering 3 - 2D Spheres Rendering 4 - 3D Spheres Rendering 5 - World Rendering 6 - World with Shadows  Motivation I&amp;rsquo;d been curious about how graphics worked since playing video games as a child.
-I decided to take the time to learn about graphics programming this year. After doing a bit of research on rendering techniques, I decided to learn about a particular technique called ray tracing.</description>
+      <description>Table of Contents  Motivation  Tools for the Job  Rendering 1 - Projectile  Rendering 2 - Clock  Rendering 3 - 2D Spheres  Rendering 4 - 3D Spheres  Rendering 5 - World  Rendering 6 - World with Shadows   Motivation I&#39;d been curious about how graphics worked since playing video games as a child.
+I decided to take the time to learn about graphics programming this year.</description>
     </item>
     
   </channel>

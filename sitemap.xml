@@ -1,49 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://austingebauer.com/tags/2020/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <loc>http://austingebauer.com/tags/2019/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://austingebauer.com/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://austingebauer.com/categories/book-reviews/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://austingebauer.com/tags/books/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://austingebauer.com/categories/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://austingebauer.com/posts/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://austingebauer.com/tags/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://austingebauer.com/posts/2020/books/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://austingebauer.com/tags/2019/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphics on austingebauer</title>
+    <link>http://austingebauer.com/categories/graphics/</link>
+    <description>Recent content in Graphics on austingebauer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 May 2018 16:10:36 -0400</lastBuildDate>
+    
+	<atom:link href="http://austingebauer.com/categories/graphics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deep Dive 2019 - Writing a Ray Tracer in Go</title>
+      <link>http://austingebauer.com/posts/ray-tracing/</link>
+      <pubDate>Wed, 23 May 2018 16:10:36 -0400</pubDate>
+      
+      <guid>http://austingebauer.com/posts/ray-tracing/</guid>
+      <description>This year, I decided to start doing an annual deep dive on a subject that I know nothing about.
+My decision was inspired by a quote that I saw on twitter.
+At any time of your life,
+you should be learning something new that makes you feel like an idiot. &amp;mdash; Orange Book (@orangebook_) October 18, 2019  I&amp;rsquo;m grateful that I happened to see this tweet because it inspired me to take action and learn something new.</description>
+    </item>
+    
+  </channel>
+</rss>

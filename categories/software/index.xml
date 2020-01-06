@@ -6,10 +6,21 @@
     <description>Recent content in Software on Austin Gebauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://austingebauer.com/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sorting maps in Go</title>
+      <link>http://austingebauer.com/posts/2020/sorting-maps-in-go/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://austingebauer.com/posts/2020/sorting-maps-in-go/</guid>
+      <description>Go provides a built-in map type that implements a hash table (i.e., associative array that can map keys to values).
+In this post, I&#39;ll present a problem and show examples of how to solve it by sorting the contents of a Go map by keys and/or values.
+Example Problem Imagine that we have a set of movie titles, each with an association to the number of likes the movie has received.</description>
+    </item>
     
     <item>
       <title>Writing a Ray Tracer in Go</title>

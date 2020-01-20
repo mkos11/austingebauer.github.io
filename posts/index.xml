@@ -18,8 +18,8 @@
       
       <guid>http://austingebauer.com/posts/2020/sorting-maps-in-go/</guid>
       <description>Go provides a built-in map type that implements a hash table (i.e., associative array that can map keys to values).
-In this post, I&#39;ll present a problem and show examples of how to solve it by sorting the contents of a Go map by keys and/or values.
-Example Problem Imagine that we have a set of movie titles, each with an association to the number of likes the movie has received.</description>
+When iterating over a map, the iteration order isn&#39;t specified and has no guarantee to be the same from one iteration to the next. So, if you require a certain iteration order, you&#39;ll need to create a separate data structure that specifies that order.
+In this post, I&#39;ll show examples of how to specify that iteration order.</description>
     </item>
     
     <item>

@@ -18,8 +18,8 @@
       
       <guid>http://austingebauer.com/posts/2020/sorting-maps-in-go/</guid>
       <description>Go provides a built-in map type that implements a hash table (i.e., associative array that can map keys to values).
-When iterating over a map, the iteration order isn&#39;t specified and has no guarantee to be the same from one iteration to the next. So, if you require a certain iteration order, you&#39;ll need to create a separate data structure that specifies that order.
-In this post, I&#39;ll show examples of how to specify that iteration order.</description>
+When iterating over a map, the iteration order isn&amp;rsquo;t specified and has no guarantee to be the same from one iteration to the next. So, if you require a certain iteration order, you&amp;rsquo;ll need to create a separate data structure that specifies that order.
+In this post, I&amp;rsquo;ll show examples of how to specify that iteration order.</description>
     </item>
     
     <item>
@@ -28,9 +28,9 @@ In this post, I&#39;ll show examples of how to specify that iteration order.</de
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>http://austingebauer.com/posts/2020/books/</guid>
-      <description>Continuing the tradition that I started in 2019, here are all of the books that I&#39;m reading in each month of 2020.
-Why We Sleep  - January Currently in progress.
-Site Reliability Engineering  - February Currently in progress.</description>
+      <description>Continuing the tradition that I started in 2019, here are all of the books that I&amp;rsquo;m reading in each month of 2020.
+Why We Sleep  - January Why we sleep is an exploration of all things related to, you guessed it, sleep.
+The book covered the topics that I was expecting to learn about, for example, dreams and caffeine. It also covered some topics that I was not expecting to learn about, for example, evolutionary pressures motivating sleep, and sleep in animals.</description>
     </item>
     
     <item>
@@ -39,7 +39,7 @@ Site Reliability Engineering  - February Currently in progress.</description>
       <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>http://austingebauer.com/posts/2019/books/</guid>
-      <description>In the last quarter of 2019, I decided to read a new book every month. As a tradition, I&#39;ll be posting short reviews for each book that I read over each year.
+      <description>In the last quarter of 2019, I decided to read a new book every month. As a tradition, I&amp;rsquo;ll be posting short reviews for each book that I read over each year.
 So here are all of the books that I read in 2019, starting with what I read in September and ending with December.
 Rework  - September Rework is an incredibly insightful business book that questions the status quo and current state of affairs for how things get done in the workplace.</description>
     </item>
@@ -50,7 +50,7 @@ Rework  - September Rework is an incredibly insightful business book that questi
       <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>http://austingebauer.com/posts/2019/ray-tracing/</guid>
-      <description>Table of Contents  Motivation  Tools for the Job  Rendering 1 - Projectile  Rendering 2 - Clock  Rendering 3 - 2D Spheres  Rendering 4 - 3D Spheres  Rendering 5 - World  Rendering 6 - World with Shadows   Motivation I&#39;d been curious about how graphics worked since playing video games as a child.
+      <description>Table of Contents  Motivation  Tools for the Job  Rendering 1 - Projectile  Rendering 2 - Clock  Rendering 3 - 2D Spheres  Rendering 4 - 3D Spheres  Rendering 5 - World  Rendering 6 - World with Shadows   Motivation I&amp;rsquo;d been curious about how graphics worked since playing video games as a child.
 I decided to take the time to learn about graphics programming this year.</description>
     </item>
     

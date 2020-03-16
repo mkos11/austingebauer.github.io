@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://austingebauer.com/</loc>
-    <lastmod>2020-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://austingebauer.com/categories/</loc>
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
   </url>
@@ -94,6 +89,11 @@
   
   <url>
     <loc>http://austingebauer.com/about/</loc>
+    <lastmod>2018-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://austingebauer.com/</loc>
     <lastmod>2018-01-21T00:00:00+00:00</lastmod>
   </url>
   

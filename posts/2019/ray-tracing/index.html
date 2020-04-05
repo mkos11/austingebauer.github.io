@@ -1,229 +1,31 @@
-<!doctype html>
-<html lang="en"><head>
-    <title>Writing a Ray Tracer in Go</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../../../css/theme.css"/>
-    
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-150288366-2', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-
-</head>
-<body>
-        <div id="content" class="mx-auto"><header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
-    <div class="row">
-        <div class="col-sm-4 col-12 text-sm-right text-center pt-sm-4">
-            <a href="../../../" class="text-decoration-none">
-                <img id="home-image" class="rounded-circle"
-                     src="../../../images/me.png" />
-            </a>
-        </div>
-        <div class="col-sm-8 col-12 text-sm-left text-center">
-            <h2 class="m-0 mb-2 mt-4">
-                <a href="../../../" class="text-decoration-none">
-                    Austin Gebauer
-                </a>
-            </h2>
-            <p class="text-muted mb-1">
-                Software Engineer | Hashicorp | Seattle, WA
-            </p>
-            <ul id="nav-links" class="list-inline mb-2">
-                
-                
-                    <li class="list-inline-item">
-                        <a class="badge badge-white " href="../../../about/" title="About">About</a>
-                    </li>
-                
-                    <li class="list-inline-item">
-                        <a class="badge badge-white active" href="../../../posts/" title="Posts">Posts</a>
-                    </li>
-                
-                    <li class="list-inline-item">
-                        <a class="badge badge-white " href="../../../categories/" title="Categories">Categories</a>
-                    </li>
-                
-            </ul>
-            <ul id="nav-social" class="list-inline">
-                
-                    <li class="list-inline-item mr-3">
-                        <a href="https://github.com/austingebauer" target="_blank">
-                            <i class="fab fa-github fa-1x text-muted"></i>
-                        </a>
-                    </li>
-                
-                    <li class="list-inline-item mr-3">
-                        <a href="https://www.linkedin.com/in/austingebauer" target="_blank">
-                            <i class="fab fa-linkedin-in fa-1x text-muted"></i>
-                        </a>
-                    </li>
-                
-                    <li class="list-inline-item mr-3">
-                        <a href="https://twitter.com/austingebauer" target="_blank">
-                            <i class="fab fa-twitter fa-1x text-muted"></i>
-                        </a>
-                    </li>
-                
-                    <li class="list-inline-item mr-3">
-                        <a href="mailto:gebauer.austin@gmail.com" target="_blank">
-                            <i class="fas fa-at fa-1x text-muted"></i>
-                        </a>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
-    <hr />
-</header>
-<div class="container">
-    <div class="pl-sm-2">
-        <div class="mb-3">
-            <h3 class="mb-0">Writing a Ray Tracer in Go</h3>
-            
-            <small class="text-muted">Published November 25, 2019</small>
-        </div>
-
-        <article>
-            <img class="img-fluid" src="images/world_shadow_3d.png"/>
-<h4 id="table-of-contents">Table of Contents</h4>
-<ul>
-<li><a href="#motivation">Motivation</a>
-</li>
-<li><a href="#tools-for-the-job">Tools for the Job</a>
-</li>
-<li><a href="#rendering-1-projectile">Rendering 1 - Projectile</a>
-</li>
-<li><a href="#rendering-2-clock">Rendering 2 - Clock</a>
-</li>
-<li><a href="#rendering-3-2d-spheres">Rendering 3 - 2D Spheres</a>
-</li>
-<li><a href="#rendering-4-3d-spheres">Rendering 4 - 3D Spheres</a>
-</li>
-<li><a href="#rendering-5-world">Rendering 5 - World</a>
-</li>
-<li><a href="#rendering-6-world-with-shadows">Rendering 6 - World with Shadows</a>
-</li>
-</ul>
-<h4 id="motivation">Motivation</h4>
-<p>I&rsquo;d been curious about how graphics worked since playing video games as a child.</p>
-<p>I decided to take the time to learn about graphics programming this year.
+<!doctype html><html lang=en><head><title>Writing a Ray Tracer in Go</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=stylesheet href=../../../css/theme.css><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-150288366-2','auto');ga('send','pageview');}</script></head><body><div id=content class=mx-auto><header class="container mt-sm-5 mt-4 mb-4 mt-xs-1"><div class=row><div class="col-sm-4 col-12 text-sm-right text-center pt-sm-4"><a href=../../../ class=text-decoration-none><img id=home-image class=rounded-circle src=images/me.png></a></div><div class="col-sm-8 col-12 text-sm-left text-center"><h2 class="m-0 mb-2 mt-4"><a href=../../../ class=text-decoration-none>Austin Gebauer</a></h2><p class="text-muted mb-1">Software Engineer | Hashicorp | Seattle, WA</p><ul id=nav-links class="list-inline mb-2"><li class=list-inline-item><a class="badge badge-white" href=../../../about/ title=About>About</a></li><li class=list-inline-item><a class="badge badge-white active" href=../../../posts/ title=Posts>Posts</a></li><li class=list-inline-item><a class="badge badge-white" href=../../../categories/ title=Categories>Categories</a></li></ul><ul id=nav-social class=list-inline><li class="list-inline-item mr-3"><a href=https://github.com/austingebauer target=_blank><i class="fab fa-github fa-1x text-muted"></i></a></li><li class="list-inline-item mr-3"><a href=https://www.linkedin.com/in/austingebauer target=_blank><i class="fab fa-linkedin-in fa-1x text-muted"></i></a></li><li class="list-inline-item mr-3"><a href=https://twitter.com/austingebauer target=_blank><i class="fab fa-twitter fa-1x text-muted"></i></a></li><li class="list-inline-item mr-3"><a href=mailto:gebauer.austin@gmail.com target=_blank><i class="fas fa-at fa-1x text-muted"></i></a></li></ul></div></div><hr></header><div class=container><div class=pl-sm-2><div class=mb-3><h3 class=mb-0>Writing a Ray Tracer in Go</h3><small class=text-muted>Published November 25, 2019</small></div><article><img class=img-fluid src=images/world_shadow_3d.png><h4 id=table-of-contents>Table of Contents</h4><ul><li><a href=#motivation>Motivation</a></li><li><a href=#tools-for-the-job>Tools for the Job</a></li><li><a href=#rendering-1-projectile>Rendering 1 - Projectile</a></li><li><a href=#rendering-2-clock>Rendering 2 - Clock</a></li><li><a href=#rendering-3-2d-spheres>Rendering 3 - 2D Spheres</a></li><li><a href=#rendering-4-3d-spheres>Rendering 4 - 3D Spheres</a></li><li><a href=#rendering-5-world>Rendering 5 - World</a></li><li><a href=#rendering-6-world-with-shadows>Rendering 6 - World with Shadows</a></li></ul><h4 id=motivation>Motivation</h4><p>I&rsquo;d been curious about how graphics worked since playing video games as a child.</p><p>I decided to take the time to learn about graphics programming this year.
 After doing a bit of research on rendering techniques, I decided to
-learn about a particular technique called <a href="https://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29" target="_blank">ray tracing</a>
+learn about a particular technique called <a href=https://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29 target=_blank>ray tracing</a>
 .
-Ray tracing can be used to render photorealistic scenes.</p>
-<p>I followed a highly recommended book titled <em><a href="https://pragprog.com/book/jbtracer/the-ray-tracer-challenge" target="_blank">The Ray Tracer Challenge</a>
+Ray tracing can be used to render photorealistic scenes.</p><p>I followed a highly recommended book titled <em><a href=https://pragprog.com/book/jbtracer/the-ray-tracer-challenge target=_blank>The Ray Tracer Challenge</a>
 </em>.
 It is a cohesive, hands-on, test-driven introduction to graphics programming.
-I personally recommend this book after having worked through it myself.</p>
-<p>The purpose of this post is to share details on the building blocks of graphics<br>
-programming that I happened to find interesting along my learning journey.</p>
-<h4 id="tools-for-the-job">Tools for the Job</h4>
-<p>I chose to write the ray tracer in my favorite programming language, <a href="https://golang.org/" target="_blank">Go</a>
+I personally recommend this book after having worked through it myself.</p><p>The purpose of this post is to share details on the building blocks of graphics<br>programming that I happened to find interesting along my learning journey.</p><h4 id=tools-for-the-job>Tools for the Job</h4><p>I chose to write the ray tracer in my favorite programming language, <a href=https://golang.org/ target=_blank>Go</a>
 .
-All else that I needed was my laptop and a text editor.</p>
-<p>You can view the source for the ray tracer on my github profile at
-<a href="https://github.com/austingebauer/go-ray-tracer" target="_blank">go-ray-tracer</a>
-.</p>
-<h4 id="rendering-1---projectile">Rendering 1 - Projectile</h4>
-<p>My very first rendering was a projectile with a starting point, initial velocity, wind, and gravity.</p>
-<p>The rendering demonstrates the use of points and vectors.</p>
-<img class="img-fluid" src="images/projectile.png"/>
-<h4 id="rendering-2---clock">Rendering 2 - Clock</h4>
-<p>My second rendering is a clock. The clock has a pixel for each hour of 1-12.</p>
-<p>The rendering demonstrates the use of matrix transforms (e.g., translate, rotate) on points.</p>
-<p>You may need to squint in order to see the hour locations on the clock!</p>
-<img class="img-fluid" src="images/clock.png"/>
-<h4 id="rendering-3---2d-spheres">Rendering 3 - 2D Spheres</h4>
-<p>My third rendering is the first one that is actually ray-traced! It&rsquo;s a circle that was produced by
-casting rays at a sphere and filling in colored pixels where an intersection occurred.</p>
-<p>The rendering demonstrates the use of a
-<a href="https://en.wikipedia.org/wiki/Line%E2%80%93sphere_intersection" target="_blank">line-sphere intersection algorithm</a>
- and
-transformation matrices (e.g., scaling, rotation, shearing) applied to the spheres.</p>
-<div class="row">
-    <div class="col-6 pb-4">    
-        <img class="img-fluid" src="images/sphere_2d.png"/>
-    </div>
-    <div class="col-6">
-        <img class="img-fluid" src="images/sphereScaleX_2d.png"/>
-    </div>
-    <div class="col-6">
-        <img class="img-fluid" src="images/sphereScaleXRotateZ_2d.png"/>
-    </div>
-    <div class="col-6">
-        <img class="img-fluid" src="images/sphereShearXYScaleX_2d.png"/>
-    </div>
-</div>
-<h4 id="rendering-4---3d-spheres">Rendering 4 - 3D Spheres</h4>
-<p>My fourth rendering is my first ever 3D rendering! Producing a 3D rendering was one of those moments that
-felt like magic. Those are the moments that keep me excited about programming.</p>
-<p>The rendering demonstrates the use of the
-<a href="https://en.wikipedia.org/wiki/Phong_reflection_model" target="_blank">phong reflection model</a>
- for pixel shading, computing
-normal vectors on a sphere, and vector reflection.</p>
-<div class="row">
-    <div class="col-6 pb-4">    
-        <img class="img-fluid" src="images/sphere_3d.png"/>
-    </div>
-    <div class="col-6">
-        <img class="img-fluid" src="images/sphereScaleX_3d.png"/>
-    </div>
-    <div class="col-6">
-        <img class="img-fluid" src="images/sphereScaleXRotateZ_3d.png"/>
-    </div>
-    <div class="col-6">
-        <img class="img-fluid" src="images/sphereShearXYScaleX_3d.png"/>
-    </div>
-</div>
-<h4 id="rendering-5---world">Rendering 5 - World</h4>
-<p>My fifth rendering is a ray traced world which includes 3 spheres sitting in a room with walls.</p>
-<p>The rendering demonstrates the implementation of a camera with a
-<a href="https://en.wikipedia.org/wiki/Angle_of_view" target="_blank">field of view</a>
- and view transformation matrix.
+All else that I needed was my laptop and a text editor.</p><p>You can view the source for the ray tracer on my github profile at
+<a href=https://github.com/austingebauer/go-ray-tracer target=_blank>go-ray-tracer</a>
+.</p><h4 id=rendering-1---projectile>Rendering 1 - Projectile</h4><p>My very first rendering was a projectile with a starting point, initial velocity, wind, and gravity.</p><p>The rendering demonstrates the use of points and vectors.</p><img class=img-fluid src=images/projectile.png><h4 id=rendering-2---clock>Rendering 2 - Clock</h4><p>My second rendering is a clock. The clock has a pixel for each hour of 1-12.</p><p>The rendering demonstrates the use of matrix transforms (e.g., translate, rotate) on points.</p><p>You may need to squint in order to see the hour locations on the clock!</p><img class=img-fluid src=images/clock.png><h4 id=rendering-3---2d-spheres>Rendering 3 - 2D Spheres</h4><p>My third rendering is the first one that is actually ray-traced! It&rsquo;s a circle that was produced by
+casting rays at a sphere and filling in colored pixels where an intersection occurred.</p><p>The rendering demonstrates the use of a
+<a href=https://en.wikipedia.org/wiki/Line%E2%80%93sphere_intersection target=_blank>line-sphere intersection algorithm</a>
+and
+transformation matrices (e.g., scaling, rotation, shearing) applied to the spheres.</p><div class=row><div class="col-6 pb-4"><img class=img-fluid src=images/sphere_2d.png></div><div class=col-6><img class=img-fluid src=images/sphereScaleX_2d.png></div><div class=col-6><img class=img-fluid src=images/sphereScaleXRotateZ_2d.png></div><div class=col-6><img class=img-fluid src=images/sphereShearXYScaleX_2d.png></div></div><h4 id=rendering-4---3d-spheres>Rendering 4 - 3D Spheres</h4><p>My fourth rendering is my first ever 3D rendering! Producing a 3D rendering was one of those moments that
+felt like magic. Those are the moments that keep me excited about programming.</p><p>The rendering demonstrates the use of the
+<a href=https://en.wikipedia.org/wiki/Phong_reflection_model target=_blank>phong reflection model</a>
+for pixel shading, computing
+normal vectors on a sphere, and vector reflection.</p><div class=row><div class="col-6 pb-4"><img class=img-fluid src=images/sphere_3d.png></div><div class=col-6><img class=img-fluid src=images/sphereScaleX_3d.png></div><div class=col-6><img class=img-fluid src=images/sphereScaleXRotateZ_3d.png></div><div class=col-6><img class=img-fluid src=images/sphereShearXYScaleX_3d.png></div></div><h4 id=rendering-5---world>Rendering 5 - World</h4><p>My fifth rendering is a ray traced world which includes 3 spheres sitting in a room with walls.</p><p>The rendering demonstrates the implementation of a camera with a
+<a href=https://en.wikipedia.org/wiki/Angle_of_view target=_blank>field of view</a>
+and view transformation matrix.
 The view transformation matrix orients the camera by specifying where to look <em>from</em> and <em>to</em>, and
-which way is <em>up</em>.</p>
-<p>I found the following to be good reads for more on view transformation matrices:</p>
-<ul>
-<li><a href="http://www.codinglabs.net/article_world_view_projection_matrix.aspx" target="_blank">World, View and Projection Transformation Matrices</a>
-</li>
-<li><a href="https://www.3dgep.com/understanding-the-view-matrix/" target="_blank">Understanding the View Matrix</a>
-</li>
-</ul>
-<p><img class="img-fluid" src="images/world_3d.png" /></p>
-<h4 id="rendering-6---world-with-shadows">Rendering 6 - World with Shadows</h4>
-<p>My sixth rendering is the same ray traced world as the last rendering but with shadows!</p>
-<p>The rendering demonstrates using
-<a href="https://graphics.stanford.edu/~cek/rayshade/doc/guide/section2_6_2.html" target="_blank">shadow rays</a>
- to determine
+which way is <em>up</em>.</p><p>I found the following to be good reads for more on view transformation matrices:</p><ul><li><a href=http://www.codinglabs.net/article_world_view_projection_matrix.aspx target=_blank>World, View and Projection Transformation Matrices</a></li><li><a href=https://www.3dgep.com/understanding-the-view-matrix/ target=_blank>Understanding the View Matrix</a></li></ul><p><img class=img-fluid src=images/world_3d.png></p><h4 id=rendering-6---world-with-shadows>Rendering 6 - World with Shadows</h4><p>My sixth rendering is the same ray traced world as the last rendering but with shadows!</p><p>The rendering demonstrates using
+<a href=https://graphics.stanford.edu/~cek/rayshade/doc/guide/section2_6_2.html target=_blank>shadow rays</a>
+to determine
 if a point is in a shadow or not. If a point is in shadow, the ray tracer will omit the diffuse
-and specular contribution and only use the ambient contribution to shade the pixel.</p>
-<img class="img-fluid" src="images/world_shadow_3d.png"/>
-<p>I also learned about <a href="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/ligth-and-shadows" target="_blank">shadow acne</a>
+and specular contribution and only use the ambient contribution to shade the pixel.</p><img class=img-fluid src=images/world_shadow_3d.png><p>I also learned about <a href=https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/ligth-and-shadows target=_blank>shadow acne</a>
 ,
-which happens because computers cannot represent floating point numbers very precisely.</p>
-<img class="img-fluid" src="images/world_shadow_acne_3d.png"/>
-<h4 id="rendering-7---still-rendering">Rendering 7 - Still rendering&hellip;</h4>
-<p>I&rsquo;ll be posting updates to this page as I learn new graphics concepts and render new images!
-Check back.</p>
-
-        </article>
-    </div>
-
-            </div>
-        </div><footer class="text-center pb-1">
-    <small class="text-muted">
-        &copy; Copyright 2020, Austin Gebauer<br>
-        Powered by <a href="https://github.com/austingebauer/devise" target="_blank">Devise</a>
-    </small>
-</footer>
-</body>
-</html>
+which happens because computers cannot represent floating point numbers very precisely.</p><img class=img-fluid src=images/world_shadow_acne_3d.png><h4 id=rendering-7---still-rendering>Rendering 7 - Still rendering&mldr;</h4><p>I&rsquo;ll be posting updates to this page as I learn new graphics concepts and render new images!
+Check back.</p></article></div></div></div><footer class="text-center pb-1"><small class=text-muted>&copy; Copyright 2020, Austin Gebauer<br>Powered by <a href=https://github.com/austingebauer/devise target=_blank>Devise</a></small></footer></body></html>

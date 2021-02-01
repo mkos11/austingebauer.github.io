@@ -11,7 +11,7 @@ The book covered the topics that I was expecting to learn about, for example, dr
 So here are all of the books that I read in 2019, starting with what I read in September and ending with December.
 Rework - September Rework is an incredibly insightful business book that questions the status quo and current state of affairs for how things get done in the workplace.</description></item><item><title>Writing a Ray Tracer in Go</title><link>http://austingebauer.com/post/2019/ray-tracing/</link><pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate><guid>http://austingebauer.com/post/2019/ray-tracing/</guid><description>Table of Contents Motivation Tools for the Job Rendering 1 - Projectile Rendering 2 - Clock Rendering 3 - 2D Spheres Rendering 4 - 3D Spheres Rendering 5 - World Rendering 6 - World with Shadows Motivation I&amp;rsquo;d been curious about how graphics worked since playing video games as a child.
 I decided to take the time to learn about graphics programming this year.</description></item><item><title>About</title><link>http://austingebauer.com/about/</link><pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate><guid>http://austingebauer.com/about/</guid><description>About Me Hello 👋 I&amp;rsquo;m Austin Gebauer. I live in Seattle, WA. I&amp;rsquo;m a software engineer.
-I studied computer science at the University of Washington.
+I studied at the University of Washington.
 I currently work for Hashicorp on their Vault product.
 Previously, I worked for NGINX and F5 Networks.
 This Blog This blog is an outlet for me to share things that I&amp;rsquo;ve learned with others.
